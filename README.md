@@ -1,19 +1,3 @@
-### Deep learning project seed
-Use this seed to start new deep learning / ML projects.
-
-- Built in setup.py
-- Built in requirements
-- Examples with MNIST
-- Badges
-- Bibtex
-
-#### Goals  
-The goal of this seed is to structure ML paper-code the same so that work can easily be extended and replicated.   
-
-### DELETE EVERYTHING ABOVE FOR YOUR PROJECT  
- 
----
-
 <div align="center">    
  
 # Your Project Name     
@@ -35,13 +19,17 @@ Conference
 </div>
  
 ## Description   
-What it does   
+This github repository is a template for deep learning projects. It is based on PyTorch Lightning and contains the following features:
+- DataModule
+- Model
+- Trainer
+- Test helper
 
 ## How to run   
 First, install dependencies   
 ```bash
 # clone project   
-git clone https://github.com/YourGithubName/deep-learning-project-template
+git clone [url]
 
 # install project   
 cd deep-learning-project-template 
@@ -55,6 +43,27 @@ cd project
 
 # run module (example: mnist as your main contribution)   
 python lit_classifier_main.py    
+```
+
+## Project Organization   
+```txt
+├── README.md          <- The top-level README for developers using this project.
+├── data
+│   ├── external       <- Data from third party sources.
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+│
+├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+│
+├── models             <- Trained and serialized models, model predictions, or model summaries
+│
+├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+│                         the creator's initials, and a short `-` delimited description, e.g.
+│                         `1.0-jqp-initial-data-exploration`.
+│
+├── project            <- Source code for use in this project.
+│   ├── __init__.py    <- Makes project a Python module
 ```
 
 ## Imports

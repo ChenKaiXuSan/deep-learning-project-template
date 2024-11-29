@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "charliermarsh.ruff",
-        "psioniq.psi-header"
+        "psioniq.psi-header",
+        "wayou.vscode-todo-highlight"
     ]
 }
